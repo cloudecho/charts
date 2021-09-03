@@ -16,6 +16,7 @@ This chart deploys hello on a [Kubernetes](http://kubernetes.io) cluster using t
 
 ## Prerequisites
 
+- Kubernetes v1.14+
 
 ## Installing the Chart
 

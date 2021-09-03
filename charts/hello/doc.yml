@@ -12,8 +12,8 @@ chart:
   version: 0.1.1
   values: "-- generate from values file --"
   valuesExample: "-- generate from values file --"
-# prerequisites:
-# - "Kubernetes v1.14+"
+prerequisites:
+- "Kubernetes v1.14+"
 
 release:
   name: my-hello
