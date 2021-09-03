@@ -3,22 +3,32 @@ entries:
   hello:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2021-09-03T16:16:49.4402+08:00"
+    created: "2021-09-03T23:09:05.835023+08:00"
+    description: A 'Hello World' program written in go lang.
+    digest: 431523410e503184167add69f4b9583c26a91c32c6a27af3c5bce702197c3311
+    name: hello
+    type: application
+    urls:
+    - https://cloudecho.github.io/charts/hello-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2021-09-03T23:09:05.833559+08:00"
     description: A 'Hello World' program written in go lang.
     digest: 2a44479e6c38189839da46bc7b0df9b2b2615e0acd5968845faedba32aa0ba28
     name: hello
     type: application
     urls:
-    - https://echoyun.xyz/charts/hello-0.1.1.tgz
+    - https://cloudecho.github.io/charts/hello-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2021-09-03T16:16:49.439496+08:00"
+    created: "2021-09-03T23:09:05.832057+08:00"
     description: A 'Hello World' program written in go lang.
     digest: 41eafe36bf04c2c265614ff83c02670ebfff0e5d6c5d978bd6aac22731799f68
     name: hello
     type: application
     urls:
-    - https://echoyun.xyz/charts/hello-0.1.0.tgz
+    - https://cloudecho.github.io/charts/hello-0.1.0.tgz
     version: 0.1.0
-generated: "2021-09-03T16:16:49.437437+08:00"
+generated: "2021-09-03T23:09:05.829047+08:00"

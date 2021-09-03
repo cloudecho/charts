@@ -5,7 +5,7 @@
 ## TL;DR;
 
 ```console
-$ helm repo add cloudecho https://echoyun.xyz/charts/
+$ helm repo add cloudecho https://cloudecho.github.io/charts/
 $ helm repo update
 $ helm install my-hello cloudecho/hello -n default --version=0.1.1
 ```

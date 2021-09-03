@@ -16,4 +16,4 @@ package: merge doc
 	$(foreach c, $(CHARTS), helm package charts/$(c))
 
 index: package
-	helm repo index . --url https://echoyun.xyz/charts/
+	helm repo index . --url https://cloudecho.github.io/charts/

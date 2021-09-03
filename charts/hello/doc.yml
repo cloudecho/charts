@@ -5,7 +5,7 @@ project:
   description: A hello-world program written in go lang.
   app: hello
 repository:
-  url: https://echoyun.xyz/charts/
+  url: https://cloudecho.github.io/charts/
   name: cloudecho
 chart:
   name: hello
