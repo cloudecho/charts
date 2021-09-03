@@ -18,3 +18,13 @@ To install the hello chart:
 To uninstall the chart:
 
     helm delete my-hello
+
+
+## Build
+
+Build chart repo:
+
+```
+git checkout gh-pages
+make
+```
