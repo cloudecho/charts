@@ -3,12 +3,12 @@ entries:
   hello:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2021-09-03T12:57:53.191761+08:00"
+    created: "2021-09-03T15:36:32.19962+08:00"
     description: A 'Hello World' program written in go lang.
-    digest: 9d6ca5edfdcc9c4071239f3648d4e916f09d8f5e65f4e96b20733cc9a26b0289
+    digest: 41eafe36bf04c2c265614ff83c02670ebfff0e5d6c5d978bd6aac22731799f68
     name: hello
     type: application
     urls:
     - https://echoyun.xyz/charts/hello-0.1.0.tgz
     version: 0.1.0
-generated: "2021-09-03T12:57:53.189493+08:00"
+generated: "2021-09-03T15:36:32.196168+08:00"
