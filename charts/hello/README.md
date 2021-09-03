@@ -7,7 +7,7 @@
 ```console
 $ helm repo add cloudecho https://cloudecho.github.io/charts/
 $ helm repo update
-$ helm install my-hello cloudecho/hello -n default --version=0.1.1
+$ helm install my-hello cloudecho/hello -n default --version=0.1.2
 ```
 
 ## Introduction
@@ -23,7 +23,7 @@ This chart deploys hello on a [Kubernetes](http://kubernetes.io) cluster using t
 To install the chart with the release name `my-hello`:
 
 ```console
-$ helm install my-hello cloudecho/hello -n default --version=0.1.1
+$ helm install my-hello cloudecho/hello -n default --version=0.1.2
 ```
 
 The command deploys hello on the Kubernetes cluster in the default configuration. The [configuration](#configuration) section lists the parameters that can be configured during installation.
@@ -78,12 +78,12 @@ The following table lists the configurable parameters of the `hello` chart and t
 Specify each parameter using the `--set key=value[,key=value]` argument to `helm install`. For example:
 
 ```console
-$ helm install my-hello cloudecho/hello -n default --version=0.1.1 --set replicaCount=1
+$ helm install my-hello cloudecho/hello -n default --version=0.1.2 --set replicaCount=1
 ```
 
 Alternatively, a YAML file that specifies the values for the parameters can be provided while
 installing the chart. For example:
 
 ```console
-$ helm install my-hello cloudecho/hello -n default --version=0.1.1 --values values.yaml
+$ helm install my-hello cloudecho/hello -n default --version=0.1.2 --values values.yaml
 ```
