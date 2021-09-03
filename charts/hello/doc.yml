@@ -9,7 +9,7 @@ repository:
   name: cloudecho
 chart:
   name: hello
-  version: 0.1.0
+  version: 0.1.1
   values: "-- generate from values file --"
   valuesExample: "-- generate from values file --"
 # prerequisites:
