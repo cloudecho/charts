@@ -1,0 +1,20 @@
+project:
+  name: Hello World
+  shortName: Hello
+  url: https://github.com/cloudecho/hello-world-go
+  description: A hello-world program written in go lang.
+  app: hello
+repository:
+  url: https://cloudecho.github.io/charts/
+  name: cloudecho
+chart:
+  name: hello
+  version: 0.1.2
+  values: "-- generate from values file --"
+  valuesExample: "-- generate from values file --"
+prerequisites:
+- "Kubernetes v1.14+"
+
+release:
+  name: my-hello
+  namespace: default
